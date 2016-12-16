@@ -1,0 +1,5 @@
+package com.java.se.eight.functionalinterface;
+
+public interface Interface1 {
+
+}

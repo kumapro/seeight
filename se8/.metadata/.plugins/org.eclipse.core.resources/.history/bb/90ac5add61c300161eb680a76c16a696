@@ -1,0 +1,19 @@
+package com.java.se.eight.usingpredicates;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class FilterCollectionUsingPredicate {
+
+	public static void main(String[] args) {
+		List<String> lists = new ArrayList<>();
+
+		lists.add("one");
+		lists.add("two");
+		lists.add("three");
+		lists.add("four");
+		lists.add("five");
+
+	}
+
+}

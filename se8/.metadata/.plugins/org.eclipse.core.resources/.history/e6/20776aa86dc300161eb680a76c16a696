@@ -1,0 +1,22 @@
+package com.java.se.eight.creatingstream.from.collectionandarray;
+
+import java.util.stream.Stream;
+
+import com.java.se.eight.staticMethodreference.Person;
+
+public class ArrayToStream {
+
+	public static void main(String[] args) {
+		Person[] person = {
+				new Person("Jamuna", 65),
+				new Person("Anil", 34),
+				new Person("Atul", 44),
+				new Person("Bihari", 39)
+		}; 
+
+		Stream<Person> stream = Stream.of(person);
+		
+		stream.forEach(p -> System.out.println(p));
+	}
+
+}

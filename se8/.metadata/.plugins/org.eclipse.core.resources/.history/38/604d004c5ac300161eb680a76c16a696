@@ -1,0 +1,32 @@
+package com.java.se.eight.instanceMethodreference;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+import com.java.se.eight.staticMethodreference.Person;
+
+public class InstanceMethodReferenceTest {
+
+	public static void main(String[] args) {
+		InstanceMethodReferenceTest obj = new InstanceMethodReferenceTest();
+		obj.sortData();
+	}
+
+	public void sortData() {
+		List<Person> persons = new ArrayList<>();
+		
+		persons.add(new Person("Jamuna", 65));
+		persons.add(new Person("Anil", 34));
+		persons.add(new Person("atul", 44));
+		persons.add(new Person("Bihari", 39));
+		
+		Collections.sort(persons, this :: compareAges);
+	}
+	
+	public int compareAges(Person p1, Person p2){
+		Integer age1 = p1.getAge();
+		return age1.compareTo(p2.getAge());
+	}
+
+}

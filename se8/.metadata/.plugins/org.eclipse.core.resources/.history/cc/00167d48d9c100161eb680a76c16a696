@@ -1,0 +1,10 @@
+package com.java.se.eight.defaultstatic;
+
+public class DefaultStaticMethodTests implements Interface1, Interface2{
+	public static void main(String[] args) {
+		DefaultStaticMethodTests obj = new DefaultStaticMethodTests();
+		obj.test();
+		System.out.println();
+	}
+
+}

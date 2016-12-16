@@ -1,0 +1,33 @@
+package com.java.se.eight.streamapi;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.SynchronousQueue;
+import java.util.stream.Stream;
+
+public class ReverseTheStringInAList {
+
+	static{
+		obj = new StringBuffer();
+	}
+	public static final StringBuffer obj ;
+	
+	public static void main(String[] args) {
+		List<String> lists = new ArrayList<>();
+		
+		lists.add("one");
+		lists.add("two");
+		lists.add("three");
+		lists.add("four");
+		lists.add("five");
+		
+		Stream<String> stringStream = lists.parallelStream();
+		stringStream.forEach(s -> System.out.println(new StringBuffer(s).reverse().toString()));
+		
+		lists.forEach(s -> obj.append(s + " "));
+		System.out.println(obj);
+//		The final field ReverseTheStringInAList.obj cannot be assigned
+//		obj = new StringBuffer();
+	}
+
+}

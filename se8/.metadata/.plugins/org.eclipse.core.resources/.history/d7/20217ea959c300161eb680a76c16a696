@@ -1,0 +1,10 @@
+package com.java.se.eight.instanceMethodreference;
+
+public class InstanceMethodReferenceTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

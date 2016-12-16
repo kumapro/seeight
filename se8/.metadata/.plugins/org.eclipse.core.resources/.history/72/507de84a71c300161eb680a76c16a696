@@ -1,0 +1,12 @@
+package com.java.se.eight.agragatingstream;
+
+public class AgragatingStream {
+
+	public static void main(String[] args) {
+		for(int i=1; i<= 2147383647; i++){
+			System.out.println(i);
+		}
+
+	}
+
+}

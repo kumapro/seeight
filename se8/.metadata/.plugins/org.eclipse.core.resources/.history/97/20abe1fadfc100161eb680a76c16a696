@@ -1,0 +1,23 @@
+package com.java.se.eight.streamapi;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Stream;
+
+public class StreamAPITest {
+
+	public static void main(String[] args) {
+		List<Integer> numbers = new ArrayList<>();
+		
+		for(int i=1; i<=20 ; i++){
+			numbers.add(i);
+		}
+		
+		Stream<Integer> sequentialStream = numbers.stream();
+		Stream<Integer> highNums = sequentialStream.filter(p -> p > 15);
+		sequentialStream.forEach(s -> System.out.println(s));
+		
+
+	}
+
+}

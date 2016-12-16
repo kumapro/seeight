@@ -1,0 +1,19 @@
+package com.java.se.eight.foreachtest;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ForEachTest {
+
+	public static void main(String[] args) {
+		// create a list of integers
+		List<Integer> list = new ArrayList<>();
+		// add integer values to the list
+		for(int i=1; i<=10; i++){
+			list.add(i);
+		}
+		// iterate over the list and print the values
+		list.forEach(s -> System.out.println(s));
+	}
+
+}

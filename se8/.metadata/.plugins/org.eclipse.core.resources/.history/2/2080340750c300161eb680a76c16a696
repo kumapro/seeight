@@ -1,0 +1,11 @@
+package com.java.se.eight.interfacetest;
+
+public class InstantiatingInterfaceUsingLembdaExp {
+
+	public static void main(String[] args) {
+		MyInterface tester = () -> System.out.println("My interface has been instantiated");
+		tester.test();
+
+	}
+
+}

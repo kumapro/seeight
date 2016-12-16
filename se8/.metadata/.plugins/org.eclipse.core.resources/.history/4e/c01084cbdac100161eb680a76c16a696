@@ -1,0 +1,9 @@
+package com.java.se.eight.defaultstatic;
+
+public interface Interface2 {
+	
+	static void testStatic(){
+		System.out.println("Test static method of Interface2");
+	}
+
+}

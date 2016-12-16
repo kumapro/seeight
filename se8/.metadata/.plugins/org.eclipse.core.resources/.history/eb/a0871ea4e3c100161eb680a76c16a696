@@ -1,0 +1,17 @@
+package com.java.se.eight.streamapi;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ReverseTheStringInAList {
+
+	public static void main(String[] args) {
+		List<String> lists = new ArrayList<>();
+		
+		for(int i=1; i<10; i++){
+			lists.add(" " + i);
+		}
+
+	}
+
+}

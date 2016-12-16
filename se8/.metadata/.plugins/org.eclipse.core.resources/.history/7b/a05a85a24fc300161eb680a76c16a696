@@ -1,0 +1,5 @@
+package com.java.se.eight.interfacetest;
+
+public interface MyInterface {
+
+}

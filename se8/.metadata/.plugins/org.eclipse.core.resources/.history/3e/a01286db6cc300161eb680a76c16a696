@@ -1,0 +1,10 @@
+package com.java.se.eight.creatingstream.from.collectionandarray;
+
+public class ArrayToStream {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

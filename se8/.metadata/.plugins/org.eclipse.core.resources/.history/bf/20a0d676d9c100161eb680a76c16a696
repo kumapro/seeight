@@ -1,0 +1,11 @@
+package com.java.se.eight.defaultstatic;
+
+// Either test() method is default or static in both the interfaces we will get compile time error
+public class DefaultStaticMethodTests implements Interface1, Interface2{
+	public static void main(String[] args) {
+		DefaultStaticMethodTests obj = new DefaultStaticMethodTests();
+		obj.test(); 
+		System.out.println();
+	}
+
+}

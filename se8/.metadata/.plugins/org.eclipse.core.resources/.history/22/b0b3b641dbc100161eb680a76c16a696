@@ -1,0 +1,11 @@
+package com.java.se.eight.defaultstatic;
+
+public class StaticMethodFromMultipleParentTest implements Interface1, Interface2{
+
+	public static void main(String[] args) {
+		StaticMethodFromMultipleParentTest obj = new StaticMethodFromMultipleParentTest();
+		obj.testStatic();
+
+	}
+
+}
